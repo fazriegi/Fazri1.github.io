@@ -120,22 +120,22 @@ body {
   transition: 0.4s ease;
 }
 .product1 {
-  background: url("/poto/c.png") center / cover;
+  background: url("poto/c.png") center / cover;
 }
 .product2 {
-  background: url("/poto/kemeja.jpeg") center / cover;
+  background: url("poto/kemeja.jpeg") center / cover;
 }
 .product3 {
-  background: url("/poto/hoodie.jpeg") center / cover;
+  background: url("poto/hoodie.jpeg") center / cover;
 }
 .product4 {
-  background: url("/poto/buku2.jpeg") center / cover;
+  background: url("poto/buku2.jpeg") center / cover;
 }
 .product5 {
-  background: url("/poto/baju.jpeg") center / cover;
+  background: url("poto/baju.jpeg") center / cover;
 }
 .product6 {
-  background: url("/poto/sepatu.jpg") center / cover;
+  background: url("poto/sepatu.jpg") center / cover;
 }
 .layer-product {
   position: absolute;
