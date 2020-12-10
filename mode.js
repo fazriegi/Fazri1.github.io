@@ -32,4 +32,19 @@ $('.nav-link').click(function(e){
     }, 650, 'easeInOutExpo');
 
     e.preventDefault();
+});
+
+let state = false;
+$('.span').click(function(){
+    if (state) {
+        $('#defaultForm-pass').attr('type', 'password');
+        state = false;
+    } else {
+        $('#defaultForm-pass').attr('type', 'text');
+        state = true
+    }
+});
+
+$('.log').click(function(){
+    $('.validate').val('');
 })
