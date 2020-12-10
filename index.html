@@ -388,44 +388,6 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script>
-      const circle = document.querySelector(".input");
-      const body = document.querySelector("body");
-      const row = document.querySelectorAll(".card");
-      const layer = document.querySelectorAll(".layer-product");
-      const theme = document.querySelector("#theme");
-      const line = document.querySelectorAll("hr");
-      let isLightMode = true;
-      let i;
-
-      circle.addEventListener("click", function () {
-        if (isLightMode) {
-          body.style.backgroundColor = "#0d1219";
-          for (let i = 0; row[i]; i++) {
-            row[i].style.backgroundColor = "#0d1219";
-            layer[i].style.backgroundColor = "#48120e";
-          }
-          body.style.color = "#ecf0f1";
-          for (let i = 0; row[i]; i++) {
-            row[i].style.color = "#ecf0f1";
-            layer[i].style.Color = "#ecf0f1";
-          }
-          isLightMode = false;
-        } else {
-          body.style.backgroundColor = "#ecf0f1";
-          for (let i = 0; row[i]; i++) {
-            row[i].style.backgroundColor = "#ecf0f1";
-            layer[i].style.backgroundColor = "#ecf0f1";
-          }
-          body.style.color = "#2c3e50";
-          for (let i = 0; row[i]; i++) {
-            row[i].style.color = "#2c3e50";
-            layer[i].style.Color = "#2c3e50";
-          }
-
-          isLightMode = true;
-        }
-      });
-    </script>
+    <script src='mode.js'></script>
   </body>
 </html>
