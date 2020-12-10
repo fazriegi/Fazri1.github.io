@@ -284,3 +284,14 @@ hr:after {
 .book {
   padding-top: 55px;
 }
+.eye span {
+  font-size: 15px;
+  position: absolute;
+  bottom: 46px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.modal-footer .btn {
+  border: 1px solid #000000;
+}
