@@ -23,3 +23,13 @@ $(".input").click(function () {
       isLightMode = true;
     }
 });
+
+$('.nav-link').click(function(e){
+    let tujuan = $(e.target).attr('href');
+
+    $('html, body').animate({
+        scrollTop: $(tujuan).offset().top - 50
+    }, 650, 'easeInOutExpo');
+
+    e.preventDefault();
+})
