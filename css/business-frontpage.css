@@ -6,6 +6,15 @@
 body {
   padding-top: 56px;
 }
+#banner .row .capt {
+  color: #ab3e16;
+  font-size: 30px;
+  position: absolute !important;
+  left: 160px;
+  top: 150px;
+  text-align: center;
+  z-index: 1;
+}
 .card-body {
   height: 435px;
 }
@@ -85,6 +94,18 @@ body {
   .switch {
     margin-left: 440px;
   }
+  #banner .row .capt {
+    color: #ab3e16;
+    font-size: 20px;
+    position: absolute !important;
+    left: 95px;
+    top: 200px;
+    text-align: center;
+    z-index: 1;
+  }
+  #banner .row .capt h1 {
+    font-size: 50px;
+  }
 }
 @media screen and (max-width: 768px) {
   .switch {
@@ -103,6 +124,18 @@ body {
   }
   .carousel-item img {
     height: 170px;
+  }
+  #banner .row .capt {
+    color: #ab3e16;
+    font-size: 8px;
+    position: absolute !important;
+    left: 40px;
+    top: 70px;
+    text-align: center;
+    z-index: 1;
+  }
+  #banner .row .capt h1 {
+    font-size: 20px;
   }
 }
 
